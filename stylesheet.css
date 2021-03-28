@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: "Lucida Grande";
+  /*ont-family: "Lucida Grande";*/
+  font-family:"Courier New";
 }
 
 a {
@@ -91,15 +92,16 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
+  padding-bottom: 60px;
+  /*background-color: rgba(34, 49, 52, 0.9);*/
+  background-color: #c7ffd8;
+  position:fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 15%;
 }
 
 .header-left {
@@ -118,10 +120,20 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
+  font-size: 25px;
 }
 
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.header-right a:hover { 
+  background-color:#dddddd;
+}
+
+
+.menu-icon {
+  color: #c7ffd8;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
 }
 
 .lesson-wrapper {
