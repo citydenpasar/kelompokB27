@@ -32,7 +32,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://github.com/citydenpasar/kelompokB27/blob/main/home-bg.png);
+  background-image: home-bg.png;
   background-size: cover;
   color: white;
   text-align: center;
