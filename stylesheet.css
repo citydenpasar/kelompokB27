@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .clear {
   clear: left;
 }
@@ -231,14 +235,14 @@ header {
   right: 0;
 }
 
-footer img {
+/* footer img {
   width: 125px;
 }
-
-footer p {
+ */
+/* footer p {
   color: #b3aeb5;
   font-size: 12px;
-}
+} */
 
 footer {
   padding-top: 30px;
@@ -250,8 +254,21 @@ footer {
   font-size: 32px;
 }
 
+.footer-logo img {
+  width: 125px;
+}
+
+.footer-logo p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
 .footer-list {
   float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
 
 /* Ketik code Anda dibawah */
